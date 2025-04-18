@@ -1,6 +1,6 @@
 Adres:
 http://localhost:5000/api/v1.0/predict
-Parametry (GET):
+Parametry:
 x – liczba
 y – liczba
 Przykład:
