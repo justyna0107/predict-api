@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 @app.route('/api/v1.0/predict', methods=['GET'])
 def predict():
-    # Pobierz liczby z parametrów URL, domyślnie 0 jeśli brak
     try:
         x = float(request.args.get('x', 0))
     except ValueError:
